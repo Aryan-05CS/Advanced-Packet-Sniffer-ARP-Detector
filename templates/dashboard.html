@@ -1,0 +1,109 @@
+<div class="row">
+
+<div class="col-md-2">
+
+<div class="card">
+
+<div class="card-body">
+
+<h5>Packets</h5>
+
+<h2>{{stats.packets}}</h2>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-2">
+
+<div class="card">
+
+<div class="card-body">
+
+<h5>Threats</h5>
+
+<h2>{{stats.alerts}}</h2>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-2">
+
+<div class="card">
+
+<div class="card-body">
+
+<h5>TCP</h5>
+
+<h2>{{stats.tcp}}</h2>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-2">
+
+<div class="card">
+
+<div class="card-body">
+
+<h5>UDP</h5>
+
+<h2>{{stats.udp}}</h2>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-2">
+
+<div class="card">
+
+<div class="card-body">
+
+<h5>ICMP</h5>
+
+<h2>{{stats.icmp}}</h2>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-2">
+
+<div class="card">
+
+<div class="card-body">
+
+<h5>ARP</h5>
+
+<h2>{{stats.arp}}</h2>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="card mt-4">
+
+<div class="card-body">
+
+{{graph|safe}}
+
+</div>
+
+</div>
